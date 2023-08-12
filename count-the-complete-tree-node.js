@@ -31,3 +31,5 @@ function countNodes(root) {
         return (1 << rightHeight) - 1 + countNodes(root.left) + 1;
     }
 }
+
+
