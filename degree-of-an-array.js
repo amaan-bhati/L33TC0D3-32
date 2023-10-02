@@ -9,6 +9,7 @@ const frequency = {};
         if (firstOccurrence[num] === undefined) {
             firstOccurrence[num] = i;
         }
+        
 
         frequency[num] = frequency[num] + 1 || 1;
 
